@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="src/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="js-clock clock">
+        <h2>날짜</h2>
+        <h3>요일</h3>
+        <h1>00:00</h1>
+        <form class="js-form form">
+            <input type="text" placeholder="What is your name?"/>
+        </form>
+        <h4 class="js-greetings greetings"></h4>
+    </div>
+    <div class="toDoList">
+            2022년 까지
+        <div id="count"></div>
+        <h4 class="js-greetings greetings"></h4>
+        <form class="js-toDoForm toDoForm">
+            <input type="text" placeholder="Add Task"/>
+        </form>
+        <div class="cover">
+        <div>
+            <div class="title">진행과제</div>
+            <ul class="js-toDoList"></ul>
+        </div>
+        <div>
+            <div class="title">완료과제</div>
+            <ul class="js-toDoFinish"></ul>
+        </div>
+        </div>
+    </div>
+    <span class="js-weather weather"></span>
+    
+    <script src="src/bg.js"></script>
+    <script src="src/greeting.js"></script>
+    <script src="src/clock.js"></script>
+    <script src="src/todo.js"></script>
+    <script src="src/weather.js"></script>
+    <script src="src/count.js"></script>
+</body>
+</html>
